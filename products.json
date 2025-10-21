@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "T-Shirt Classic", "price": 199000, "image": "/static/img/tshirt.jpg", "description": "Basic cotton t-shirt, available in multiple colors."},
+  {"id": 2, "name": "Denim Jacket", "price": 599000, "image": "/static/img/jacket.jpg", "description": "Stylish denim jacket."},
+  {"id": 3, "name": "Sneakers", "price": 799000, "image": "/static/img/sneakers.jpg", "description": "Comfortable everyday sneakers."}
+  ,
+  {"id": 4, "name": "Hoodie Cozy", "price": 349000, "image": "https://picsum.photos/seed/hoodie/600/400", "description": "Warm hoodie with soft fleece lining."},
+  {"id": 5, "name": "Chinos Slim", "price": 449000, "image": "https://picsum.photos/seed/chinos/600/400", "description": "Slim-fit chinos for everyday wear."},
+  {"id": 6, "name": "Summer Dress", "price": 399000, "image": "https://picsum.photos/seed/dress/600/400", "description": "Lightweight summer dress with floral print."},
+  {"id": 7, "name": "Leather Belt", "price": 129000, "image": "https://picsum.photos/seed/belt/600/400", "description": "Genuine leather belt in brown."},
+  {"id": 8, "name": "Beanie", "price": 99000, "image": "https://picsum.photos/seed/beanie/600/400", "description": "Knitted beanie hat for chilly days."},
+  {"id": 9, "name": "Sunglasses", "price": 249000, "image": "https://picsum.photos/seed/sunglasses/600/400", "description": "Polarized sunglasses with UV protection."}
+]

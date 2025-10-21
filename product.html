@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block title %}{{ product.name }} - Shop Quần Áo{% endblock %}
+{% block content %}
+  <div class="row align-items-center">
+    <div class="col-md-5">
+      <div class="ratio ratio-1x1">
+        <img data-src="{{ product.image }}" class="img-fluid lazy-img rounded" alt="{{ product.name }}" loading="lazy">
+      </div>
+    </div>
+    <div class="col-md-7">
+      <h2>{{ product.name }}</h2>
+      <p class="lead">{{ '{:,.0f}'.format(product.price) }} VND</p>
+      <p>{{ product.description }}</p>
+      <button class="btn btn-primary add-to-cart" data-id="{{ product.id }}">Thêm vào giỏ</button>
+    </div>
+  </div>
+{% endblock %}
